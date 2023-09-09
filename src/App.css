@@ -1,11 +1,50 @@
 .App {
-    color: white;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 .container {
-    width: 15rem;
-    height: 15rem;
-    background-color: green;
+  width: 30rem;
+  height: max-content;
+  padding: 20px;
+}
 
+.side-padding {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.answer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: medium;
+}
+
+.submit-bottom {
+  user-select: none;
+  cursor: pointer;
+  padding: 4px;
+  background-color: greenyellow;
+  font-size: medium;
+  /* border-radius: 50px; */
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.loading {
+  color: gray;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: medium;
 }
